@@ -1,0 +1,44 @@
+.body {
+    display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+}
+
+
+
+.tablero {
+width: 40em;
+height: 40em;
+background-color: black;
+
+border: 0.5em black solid;
+display: flex;
+flex-direction: column;
+}
+
+.fila{
+
+height: 5em;
+background-color: blue;
+
+display: flex;
+flex-direction: row;
+
+}
+
+.cuadro{
+
+height: 5em;
+width: 5em;
+
+
+
+
+}
+
+.negro {
+    background-color: black;
+}
+
+.blanco {background-color: white;}
